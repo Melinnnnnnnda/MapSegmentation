@@ -29,6 +29,8 @@ It restores the whole image based on seven land cover types: buildings, forests,
 
 Input model: :arrow_right: a model in folder *model*
 
+(You can also find a demo model in Google Drive: https://drive.google.com/drive/folders/1qXMpPyXZK_t8Nc3d4_9DuFEqsrywhR-p?usp=sharing)
+
 Input raster: :arrow_right: image 1222.tif in folder *1222*
 
 Output: :arrow_right: folder *reconstruct*
