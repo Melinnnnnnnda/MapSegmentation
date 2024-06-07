@@ -21,3 +21,6 @@ Output :arrow_right: folder *model*
 ## segformer.py
 It trains Segformer on map segmentation. The training, testing, and outputs are similar to main.py.
 
+## fcn.py, unet.py, and unet_parts.py
+They store network structures for FCN and UNet, no need to run them.
+
