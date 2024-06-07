@@ -9,3 +9,7 @@ It trains UNet or FCN on map segmentation.
 Training: folder *1223*
 
 Testing: folder *1222*
+
+<span style="color:red">Note: The images couldn't be uploaded due to space limits of github, so please download the images from Google Drive: 
+
+https://drive.google.com/drive/folders/1qXMpPyXZK_t8Nc3d4_9DuFEqsrywhR-p?usp=sharing</span>
