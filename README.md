@@ -25,10 +25,10 @@ It trains Segformer on map segmentation. The training, testing, and outputs are 
 They store network structures for FCN and UNet, no need to run them.
 
 ## reconstruct.py
-It restores the whole image based on seven land cover types: buildings, forests, rivers, lakes, streams, wetlands and roads. For each type it generates a binary prediction (0: no feature, 1: feature exists) of the original raster.
+It restores the whole image based on seven land cover types: buildings, forests, rivers, lakes, streams, wetlands and roads. For each type it generates a binary prediction (0: no feature, 1: feature exists) of the original raster (image to be segmented).
 
 Model Input: :arrow_right: models in folder *model*
 
-Raster Input (image to be segmented): :arrow_right: image 1222.tif in folder *1222*
+Raster Input: :arrow_right: image 1222.tif in folder *1222*
 
 Output: :arrow_right: folder *reconstruct*
