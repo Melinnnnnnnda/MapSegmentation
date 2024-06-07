@@ -6,7 +6,7 @@ You can start with **main.py**, which performs the training of model UNet or FCN
 The codes above can identify seven land cover types. But if you are only interested in one specific feature type, e.g.: buildings. You can use **oneType_train.py** to train, and **oneType_reconstruct.py** to restore the whole image.
 
 ## main.py
-It trains UNet or FCN on map segmentation. It outputs model parameters.
+It trains UNet or FCN on map segmentation of seven land cover types (buildings, forests, rivers, lakes, streams, wetlands and roads). It outputs model parameters.
 
 Training :arrow_right: folder *1223*
 
