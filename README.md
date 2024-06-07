@@ -43,3 +43,6 @@ Input model: :arrow_right: three models in folder *model*
 Input raster: :arrow_right: image 1222.tif in folder *1222*
 
 Output: :arrow_right: 4*7 image patches on different model and land cover types
+
+## oneType_reconstruct.py and oneType_train.py
+They are similar to the previous main.py and reconstruct.py. The only difference is that these two only trains and identifies only one land cover type, e.g: buildings.
