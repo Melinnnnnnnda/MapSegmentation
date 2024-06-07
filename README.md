@@ -27,8 +27,17 @@ They store network structures for FCN and UNet, no need to run them.
 ## reconstruct.py
 It restores the whole image based on seven land cover types: buildings, forests, rivers, lakes, streams, wetlands and roads. For each type it generates a binary prediction (0: no feature, 1: feature exists) of the original raster (image to be segmented).
 
-Model Input: :arrow_right: models in folder *model*
+Input model: :arrow_right: a model in folder *model*
 
-Raster Input: :arrow_right: image 1222.tif in folder *1222*
+Input raster: :arrow_right: image 1222.tif in folder *1222*
 
 Output: :arrow_right: folder *reconstruct*
+
+## draw.py
+It visualizes mode performance. It compares original image patches with the predictions by three models on seven land cover types.
+
+Input model: :arrow_right: three models in folder *model*
+
+Input raster: :arrow_right: image 1222.tif in folder *1222*
+
+Output: :arrow_right: 4*7 image patches on different model and land cover types
