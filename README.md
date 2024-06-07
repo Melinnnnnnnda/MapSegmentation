@@ -5,5 +5,7 @@ You can start with **main.py**, which performs the training of model UNet or FCN
 
 ## main.py
 It trains UNet or FCN on map segmentation. 
+
 Training: folder *1223*
+
 Testing: folder *1222*
